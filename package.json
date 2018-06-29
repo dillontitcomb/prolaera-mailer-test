@@ -1,0 +1,45 @@
+{
+    "name": "pro-email-test",
+    "version": "1.0.0",
+    "main": "lib/index.js",
+    "author": "Dillon Titcomb",
+    "license": "MIT",
+    "scripts": {
+        "build": "babel src -d lib",
+        "precommit": "pretty-quick src --staged",
+        "test": "jest src --runInBand"
+    },
+    "dependencies": {
+        "babel-runtime": "^6.26.0",
+        "react": "^16.4.0",
+        "react-dom": "^16.4.0",
+        "react-html-email": "^3.0.0"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.0.0",
+        "babel-jest": "^23.0.1",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "enzyme": "^3.3.0",
+        "enzyme-adapter-react-16": "^1.1.1",
+        "husky": "^0.14.3",
+        "jest": "^23.1.0",
+        "prettier": "^1.13.4",
+        "pretty-quick": "^1.6.0",
+        "react-test-renderer": "^16.4.0"
+    },
+    "description": "Tests prolaera-mailer email template generation service",
+    "directories": {
+        "lib": "lib"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dillontitcomb/pro-email-test.git"
+    },
+    "bugs": {
+        "url": "https://github.com/dillontitcomb/pro-email-test/issues"
+    },
+    "homepage": "https://github.com/dillontitcomb/pro-email-test#readme"
+}
